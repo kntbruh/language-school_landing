@@ -21,7 +21,7 @@ a {
 }
 
 .container {
-    max-width: 1269px;
+    max-width: 1338px;
     margin: 0 auto;
 }
 
@@ -44,12 +44,14 @@ a {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 36px;
+    margin: 0;
 }
 
 .text-h4 {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 20px;
+    margin: 0;
 }
 
 .text-p {
@@ -64,6 +66,8 @@ a {
 /* ---------------header */
 
 .header-flex {
+    padding-top: 30px;
+    padding-bottom: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,7 +114,6 @@ a {
 }
 
 .gs-left {
-
     flex: 50%;
 }
 
@@ -133,6 +136,7 @@ a {
     font-size: 20px;
     line-height: 30px;
     width: 500px;
+    margin: 40px 0 60px;
 }
 
 .skills-button {
@@ -258,7 +262,7 @@ a {
 .item-2 .skills-p {
     font-size: 16px;
     line-height: 24px;
-
+    margin-bottom: 20px;
 }
 
 .item-2 .skills-button {
@@ -290,7 +294,7 @@ a {
 .item-3 .skills-p {
     font-size: 16px;
     line-height: 24px;
-
+    margin-bottom: 40px;
 }
 
 .item-3 .skills-button {
@@ -335,7 +339,7 @@ a {
 .item-4 .skills-p {
     font-size: 16px;
     line-height: 24px;
-
+    margin-bottom: 20px;
 }
 
 .item-4 .skills-button {
@@ -389,5 +393,152 @@ a {
     padding-left: 15px;
 
 } */
+/* ------------------pricing */
+.pricing {
+    padding-top: 220px;
 
-.about-flex-right {}
+}
+
+.pricing-h2 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.pricing-h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: var(--dark-color);
+}
+
+.pricing-flex {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.pricing-flex-item {
+    max-width: 420px;
+    margin: 0 auto;
+    flex: auto;
+}
+
+.pricing-p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 30px 0;
+    width: 410px;
+}
+
+.price-block {
+    width: 240px;
+    height: 45px;
+    background: #EEEEEE;
+    border-radius: 5px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.price-block:hover {
+    background: #dad1d1ee;
+}
+
+.last-2 {
+    margin-top: 60px;
+}
+
+.price-h3 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: var(--dark-color);
+    padding: 0 18px 0 18px;
+}
+
+.price-h3 span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #546269;
+}
+
+/* -------------contact */
+.contact {
+    padding-top: 200px;
+}
+
+.contact-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-left {
+    margin-right: 110px;
+}
+
+.contact-left img {
+    width: 477px;
+    height: 429px;
+}
+
+.contact-right {}
+
+.contact-h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+}
+
+.contact-p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 37px 0 52px 0;
+}
+
+.form {}
+
+.email {
+    width: 400px;
+    height: 80px;
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.email::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8F95A5;
+    padding: 30px;
+
+}
+
+.skills-button {
+    width: 264px;
+    height: 80px;
+}
+
+/* ----------footer */
+.footer {
+    padding-top: 133px;
+    padding-bottom: 30px;
+}
+
+.footer-line {
+    width: 1338px;
+    height: 1px;
+    margin-bottom: 30px;
+    background: #C4C4C4;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
